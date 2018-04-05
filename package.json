@@ -6,6 +6,7 @@
     "name": "Valentin Degenne",
     "email": "vdegenne@gmail.com"
   },
+  "bin": "bin/pkghas",
   "license": "MIT",
   "scripts": {
     "clean": "mkdir -p lib && rm -r lib",
