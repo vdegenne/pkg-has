@@ -1,13 +1,12 @@
 {
   "name": "pkg-has",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "Just checking if package.json contains a given package.",
-  "author": {
-    "name": "Valentin Degenne",
-    "email": "vdegenne@gmail.com"
+  "license": "BSD-3-Clause",
+  "repository": "vdegenne/pkg-has",
+  "bin": {
+    "pkghas": "bin/pkghas"
   },
-  "bin": "bin/pkghas",
-  "license": "MIT",
   "scripts": {
     "clean": "mkdir -p lib && rm -r lib",
     "build": "yarn clean && tsc",
@@ -15,6 +14,11 @@
     "test:watch": "watchy -w src/ -- yarn test",
     "format": "find src test -iname '*.ts' | xargs clang-format --style=file -i"
   },
+  "keywords": [
+    "package",
+    "pkg-has",
+    "util"
+  ],
   "dependencies": {
     "@types/colors": "^1.2.1",
     "@types/node": "^9.6.1",
@@ -22,6 +26,7 @@
     "colors": "^1.2.1",
     "command-line-args": "^5.0.2",
     "command-line-usage": "^5.0.4",
+    "plylog": "^0.4.0",
     "resolve": "^1.6.0"
   },
   "devDependencies": {
@@ -31,7 +36,6 @@
     "clang-format": "^1.0.41-c",
     "intercept-stdout": "^0.1.2",
     "mocha": "^5.0.5",
-    "plylog": "^0.4.0",
     "source-map-support": "^0.5.4",
     "typescript": "^2.8.1",
     "watchy": "^0.8.0"

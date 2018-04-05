@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/vdegenne/pkg-has.svg?branch=master)](https://travis-ci.org/vdegenne/pkg-has)
 
+[![npm](https://img.shields.io/npm/v/pkg-has.svg)](https://www.npmjs.com/package/pkg-has)
+
 # pkg-has
 
 Just checking if package.json contains a given package.
@@ -17,12 +19,11 @@ const findings = require('pkg-has').wideSearch('cha');
 // findings = ["mocha", "chai"]
 ```
 
-**installation**
-```yarn add pkg-has```
+**installation :** `yarn add pkg-has`
 
 ## Command-line Usage
 
-```yarn global add pkg-has```
+```sudo yarn global add pkg-has```
 
 <img src="https://github.com/vdegenne/pkg-has/blob/master/pkghas.png?raw=true"/>
 
