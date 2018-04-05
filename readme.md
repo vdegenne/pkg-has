@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/vdegenne/pkg-has.svg?branch=master)](https://travis-ci.org/vdegenne/pkg-has)
-
+[![Build Status](https://travis-ci.org/vdegenne/pkg-has.svg)](https://travis-ci.org/vdegenne/pkg-has)
 [![npm](https://img.shields.io/npm/v/pkg-has.svg)](https://www.npmjs.com/package/pkg-has)
 
 # pkg-has
