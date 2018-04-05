@@ -22,7 +22,7 @@ const findings = require('pkg-has').wideSearch('cha');
 
 ```yarn global add pkg-has```
 
-<img src="https://github.com/vdegenne/pkg-has/pkghas.png"/>
+<img src="https://github.com/vdegenne/pkg-has/blob/master/pkghas.png?raw=true"/>
 
 ## notes
 
