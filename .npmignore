@@ -1,0 +1,8 @@
+.vscode
+node_modules
+src/test
+test
+.clang-format
+.gitignore
+.travis.yml
+pkghas.png
