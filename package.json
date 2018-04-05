@@ -1,6 +1,6 @@
 {
   "name": "pkg-has",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Just checking if package.json contains a given package.",
   "license": "BSD-3-Clause",
   "repository": "vdegenne/pkg-has",
