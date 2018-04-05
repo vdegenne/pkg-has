@@ -24,7 +24,7 @@ suite('cli', () => {
 
   test('The cli returns the expected output', async() => {
     const stdout = await runCli('command');
-    assert.match(stdout, /command-line-argsa/);
+    assert.match(stdout, /command-line-args/);
     assert.match(stdout, /command-line-usage/);
   });
 });
