@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vdegenne/pkg-has.svg?branch=master)](https://travis-ci.org/vdegenne/pkg-has)
+
 # pkg-has
 
 Just checking if package.json contains a given package.
